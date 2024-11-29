@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto kodland</title>
+</head>
+<body>
+
+    <svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Network Icon -->
+        <g transform="translate(30, 50) scale(0.8)">
+          <!-- Base Network Structure -->
+          <path d="M60 0 L120 30 L120 90 L60 120 L0 90 L0 30 Z" 
+                fill="none" 
+                stroke="#005A8D" 
+                stroke-width="2"/>
+          
+          <!-- Network Lines -->
+          <path d="M30 30 L90 60 M60 30 L60 90 M90 60 L30 90" 
+                stroke="#005A8D" 
+                stroke-width="1.5"/>
+          
+          <!-- Network Nodes -->
+          <circle cx="60" cy="30" r="4" fill="#005A8D"/>
+          <circle cx="30" cy="30" r="4" fill="#005A8D"/>
+          <circle cx="90" cy="60" r="4" fill="#005A8D"/>
+          <circle cx="60" cy="90" r="4" fill="#005A8D"/>
+          <circle cx="30" cy="90" r="4" fill="#005A8D"/>
+          
+          <!-- Center Node with Pulse -->
+          <circle cx="60" cy="60" r="6" fill="#005A8D" opacity="0.5">
+            <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+      
+        <!-- Company Name -->
+        <text x="140" y="110" font-family="Arial, sans-serif" font-weight="700" font-size="42" fill="#005A8D">
+            <tspan fill="#2B5F9E" font-weight="bold">Automate</tspan><tspan fill="#666666" font-weight="normal">.me</tspan>
+        </text>
+      </svg>
+
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Network Icon -->
+    <g transform="translate(50, 50) scale(0.7)">
+        <!-- Base Network Structure -->
+        <path d="M60 0 L120 30 L120 90 L60 120 L0 90 L0 30 Z" 
+              fill="none" 
+              stroke="#005A8D" 
+              stroke-width="2"/>
+        
+        <!-- Network Lines -->
+        <path d="M30 30 L90 60 M60 30 L60 90 M90 60 L30 90" 
+              stroke="#005A8D" 
+              stroke-width="1.5"/>
+        
+        <!-- Network Nodes -->
+        <circle cx="60" cy="30" r="4" fill="#005A8D"/>
+        <circle cx="30" cy="30" r="4" fill="#005A8D"/>
+        <circle cx="90" cy="60" r="4" fill="#005A8D"/>
+        <circle cx="60" cy="90" r="4" fill="#005A8D"/>
+        <circle cx="30" cy="90" r="4" fill="#005A8D"/>
+        
+        <!-- Center Node with Pulse -->
+        <circle cx="60" cy="60" r="6" fill="#005A8D" opacity="0.5">
+            <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+    
+    <!-- Brand Name Text Below Icon -->
+    <text x="90" y="155" font-family="Arial, sans-serif" font-weight="700" font-size="24" fill="#005A8D" text-anchor="middle">
+        <tspan fill="#2B5F9E" font-weight="bold">Automate</tspan><tspan fill="#666666" font-weight="normal">.me</tspan>
+    </text>
+</svg>
+    
+</body>
+</html>
